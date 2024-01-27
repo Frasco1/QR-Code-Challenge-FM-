@@ -7,6 +7,16 @@ body {
     flex-direction: column;
 }
 
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
 .main {
     margin: 0;
     background-color: hsl(0, 0%, 100%);
