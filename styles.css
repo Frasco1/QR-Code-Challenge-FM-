@@ -4,6 +4,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    flex-direction: column;
 }
 
 .main {
@@ -12,7 +13,7 @@ body {
     width: 20%;
     height: 30%;
     text-align: center;
-    border-radius: 20px;
+    border-radius: 15px;
 }
 
 p {
@@ -22,15 +23,15 @@ p {
 .qr {
     margin: auto;
     width: 90%;
-    padding-top: 10px;
-    border-radius: 20px;
+    padding: 5%;
+    border-radius: 25px;
 }
 
 .qr-title {
     font-size: 1em;
     color: hsl(218, 44%, 22%);
     font-weight: 700;
-    padding: 15px 30px;
+    padding: 1em 30px 0;
     line-height: 1.2;
 }
 
@@ -38,5 +39,5 @@ p {
     color: hsl(220, 15%, 55%);
     font-size: 14px;
     font-weight: 400;
-    padding: 0 25px 15px;
+    padding: 1em 25px 3em;
 }
